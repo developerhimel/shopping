@@ -26,14 +26,14 @@ function Menu() {
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
-          tabindex="-1"
+          tabIndex="-1"
         >
           <div className="py-1" role="none">
             <a
               href="#"
               className="text-gray-700 block px-4 py-2 text-sm border-b"
               role="menuitem"
-              tabindex="-1"
+              tabIndex="-1"
               id="menu-item-0"
             >
               Sign In/Join free
@@ -42,7 +42,7 @@ function Menu() {
               href="#"
               className="text-gray-700 block px-4 py-2 text-sm"
               role="menuitem"
-              tabindex="-1"
+              tabIndex="-1"
               id="menu-item-1"
             >
               Orders
@@ -51,7 +51,7 @@ function Menu() {
               href="#"
               className="text-gray-700 block px-4 py-2 text-sm border-b"
               role="menuitem"
-              tabindex="-1"
+              tabIndex="-1"
               id="menu-item-2"
             >
               Cart
@@ -61,7 +61,7 @@ function Menu() {
                 type="submit"
                 className="text-gray-700 block w-full text-left px-4 py-2 text-sm"
                 role="menuitem"
-                tabindex="-1"
+                tabIndex="-1"
                 id="menu-item-3"
               >
                 Sign out
