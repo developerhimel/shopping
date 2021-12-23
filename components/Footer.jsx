@@ -99,11 +99,10 @@ function Footer() {
             <h2 className="text-base font-semibold leading-4 text-gray-800 dark:text-white">
               Company
             </h2>
-            <Link
-              href="/faqs"
-              className="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer"
-            >
-              FAQs
+            <Link href="/faqs">
+              <a className="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800 dark:text-white cursor-pointer">
+                FAQs
+              </a>
             </Link>
             <a
               href="javascript:void(0)"
