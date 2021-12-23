@@ -1,22 +1,25 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 function Products() {
   return (
-    <a href="/product">
-      <div className="m-3 shadow-md bg-white border p-5 rounded-md hover:scale-105 cursor-pointer transition-all hover:border-orange-500">
-      <div className="w-40 h-40">
-        <img
-          src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/T/J/67343_1634295466.jpg"
-          alt="Product"
-        />
-      </div>
-      <h2 className="truncate w-36 my-2">
-        Tecno Camon 18i - 6.6" - 128GB ROM - 4GB RAM - Dual Sim - 4G LTE -
-        5000mAh - Jewel Blue
-      </h2>
-      <h2 className="text-center font-semibold">Price: <span className="text-orange-500">300$</span></h2>
-    </div>
-    </a>
+    <Link href="/product">
+        <div className="m-3 shadow-md bg-white border p-5 rounded-md hover:scale-105 cursor-pointer transition-all hover:border-orange-500">
+          <div className="w-40 h-40">
+            <img
+              src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/T/J/67343_1634295466.jpg"
+              alt="Product"
+            />
+          </div>
+          <h2 className="truncate w-36 my-2">
+            Tecno Camon 18i - 6.6" - 128GB ROM - 4GB RAM - Dual Sim - 4G LTE -
+            5000mAh - Jewel Blue
+          </h2>
+          <h2 className="text-center font-semibold">
+            Price: <span className="text-orange-500">300$</span>
+          </h2>
+        </div>
+    </Link>
   );
 }
 

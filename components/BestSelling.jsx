@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 function Products() {
   return (
-    <a href="/product">
+    <Link href="/product">
       <div className="m-3 shadow-md bg-white border p-5 rounded-md hover:scale-105 cursor-pointer transition-all hover:border-orange-500">
         <div className="w-40 h-40">
           <img
@@ -15,7 +16,7 @@ function Products() {
           Price: <span className="text-orange-500">29.9$</span>
         </h2>
       </div>
-    </a>
+    </Link>
   );
 }
 

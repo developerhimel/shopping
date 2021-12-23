@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function MegaMenu() {
@@ -31,16 +32,20 @@ function MegaMenu() {
               </ul>
             </li>
             <li className="hover:bg-gray-50">
-              <a href="/vendors">
-                <i className="fas text-orange-500 fa-map-marker-alt"></i> Local
-                Marketplace
-              </a>
+              <Link href="/vendors">
+                <a>
+                  <i className="fas text-orange-500 fa-map-marker-alt"></i>{" "}
+                  Local Marketplace
+                </a>
+              </Link>
             </li>
             <li className="hover:bg-gray-50">
-              <a href="/international">
-                <i className="fas text-orange-500 fa-globe"></i> International
-                Marketplace
-              </a>
+              <Link href="/international">
+                <a>
+                  <i className="fas text-orange-500 fa-globe"></i> International
+                  Marketplace
+                </a>
+              </Link>
             </li>
           </ul>
         </div>

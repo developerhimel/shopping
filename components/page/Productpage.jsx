@@ -55,12 +55,11 @@ function Productpage() {
               </svg>
             </div>
             <div className="flex flex-row justify-around items-center">
-              <a
-                href="/checkout"
-                className="cursor-pointer text-center bg-green-600 w-1/2 m-2 py-3 px-2 text-white rounded-md shadow-md font-semibold"
-              >
-                <i className="fas fa-shopping-cart"></i> Add to Cart
-              </a>
+              <Link href="/checkout">
+                <a className="cursor-pointer text-center bg-green-600 w-1/2 m-2 py-3 px-2 text-white rounded-md shadow-md font-semibold">
+                  <i className="fas fa-shopping-cart"></i> Add to Cart
+                </a>
+              </Link>
               <button className="cursor-pointer bg-white border w-1/2 m-2 py-3 px-2 text-gray-600 rounded-md shadow-md font-semibold">
                 <i className="fas fa-heart text-orange-500"></i> Save for Later
               </button>
