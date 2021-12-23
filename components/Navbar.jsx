@@ -26,7 +26,7 @@ function Navbar() {
                   className="outline-none max-w-89 xl:w-full"
                   type="text"
                   placeholder="What are you looking for?....."
-                  autoComplete={true}
+                  autoComplete='true'
                 />
               </div>
               <a href="#" className="border-l pl-3">

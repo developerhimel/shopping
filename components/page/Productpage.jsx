@@ -55,7 +55,10 @@ function Productpage() {
               </svg>
             </div>
             <div className="flex flex-row justify-around items-center">
-              <a href="/checkout" className="cursor-pointer text-center bg-green-600 w-1/2 m-2 py-3 px-2 text-white rounded-md shadow-md font-semibold">
+              <a
+                href="/checkout"
+                className="cursor-pointer text-center bg-green-600 w-1/2 m-2 py-3 px-2 text-white rounded-md shadow-md font-semibold"
+              >
                 <i className="fas fa-shopping-cart"></i> Add to Cart
               </a>
               <button className="cursor-pointer bg-white border w-1/2 m-2 py-3 px-2 text-gray-600 rounded-md shadow-md font-semibold">
@@ -93,147 +96,151 @@ function Productpage() {
           <br />
           <div
             aria-expanded="true"
-            class="a-expander-content a-expander-section-content a-section-expander-inner"
+            className="a-expander-content a-expander-section-content a-section-expander-inner"
           >
             {" "}
             <table
               id="productDetails_techSpec_section_2"
-              class="a-keyvalue prodDetTable"
+              className="a-keyvalue prodDetTable"
               role="presentation"
             >
               {" "}
               <tbody>
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Brand{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;Corsair{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Item model number{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;CMW16GX4M2C3200C16{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Item Weight{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;4.3 ounces{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Product Dimensions{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;5.44 x 0.3 x 2 inches{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Item Dimensions LxWxH{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;5.44 x 0.3 x 2 inches{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Color
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">&lrm;Black </td>{" "}
+                  <td className="a-size-base prodDetAttrValue">
+                    &lrm;Black{" "}
+                  </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Processor Count{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">&lrm;1 </td>{" "}
+                  <td className="a-size-base prodDetAttrValue">&lrm;1 </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Computer Memory Type{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;DDR4 SDRAM{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Voltage{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;1.35 Volts{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Manufacturer{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;Corsair{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     ASIN{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;B07D1XCKWW{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Country of Origin{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;Taiwan{" "}
                   </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Is Discontinued By Manufacturer{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">&lrm;No </td>{" "}
+                  <td className="a-size-base prodDetAttrValue">
+                    &lrm;No{" "}
+                  </td>{" "}
                 </tr>{" "}
                 <tr>
                   {" "}
-                  <th class="a-color-secondary a-size-base prodDetSectionEntry">
+                  <th className="a-color-secondary a-size-base prodDetSectionEntry">
                     {" "}
                     Date First Available{" "}
                   </th>{" "}
-                  <td class="a-size-base prodDetAttrValue">
+                  <td className="a-size-base prodDetAttrValue">
                     &lrm;May 31, 2018{" "}
                   </td>{" "}
                 </tr>{" "}
@@ -249,81 +256,82 @@ function Productpage() {
         <p className="px-2 mt-5">No reviews!</p>
       </div>
 
-      <div class="2xl:container 2xl:mx-auto md:py-12 py-9">
-        <div class="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-10 md:px-12 px-4">
-          <div class="">
+      <div className="2xl:container 2xl:mx-auto md:py-12 py-9">
+        <div className="bg-gray-50 dark:bg-gray-800 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-12 gap-14 lg:px-20 lg:py-12 py-10 md:px-12 px-4">
+          <div className="">
             <img
-              class="dark:hidden"
+              className="dark:hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1.svg"
               alt="delivery"
             />
             <img
-              class="dark:block hidden"
+              className="dark:block hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg1dark.svg"
               alt="delivery"
             />
-            <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
+            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
               Delivery
             </h3>
-            <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
+            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
               Free worldwide delivery over orders above $100
             </p>
           </div>
-          <div class="">
+          <div className="">
             <img
-              class="dark:hidden"
+              className="dark:hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2.svg"
               alt="Customer Care"
             />
             <img
-              class="dark:block hidden"
+              className="dark:block hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg2dark.svg"
               alt="Customer Care"
             />
-            <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
+            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
               Customer Care
             </h3>
-            <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
+            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
               Our customer care is available 24/7 at{" "}
-              <span class="font-semibold cursor-pointer">+495-589-509</span> and{" "}
-              <span class="font-semibold cursor-pointer">
+              <span className="font-semibold cursor-pointer">+495-589-509</span>{" "}
+              and{" "}
+              <span className="font-semibold cursor-pointer">
                 customercare@gmail.com
               </span>
             </p>
           </div>
-          <div class="">
+          <div className="">
             <img
-              class="dark:hidden"
+              className="dark:hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3.svg"
               alt="Recycle"
             />
             <img
-              class="dark:block hidden"
+              className="dark:block hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg3dark.svg"
               alt="Recycle"
             />
-            <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
+            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
               Recycle
             </h3>
-            <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
+            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
               All out products are 100 percent recycable
             </p>
           </div>
-          <div class="">
+          <div className="">
             <img
-              class="dark:hidden"
+              className="dark:hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4.svg"
               alt="Secure Payment"
             />
             <img
-              class="dark:block hidden"
+              className="dark:block hidden"
               src="https://tuk-cdn.s3.amazonaws.com/can-uploader/highlight-1-svg4dark.svg"
               alt="Secure Payment"
             />
-            <h3 class="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
+            <h3 className="text-xl leading-5 dark:text-white font-semibold text-gray-800 lg:mt-10 mt-8">
               Secure Payment
             </h3>
-            <p class="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
+            <p className="text-base leading-6 font-normal dark:text-gray-300 text-gray-600 mt-4 lg:w-full md:w-9/12 w-full">
               Transaction process has end to end encryption
             </p>
           </div>
