@@ -104,7 +104,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-<Heatured/>
+      <Heatured />
       <div className="container mx-auto">
         <Vendors />
         <Amazon />
