@@ -30,7 +30,7 @@ function BestSelling() {
             See all items
           </span>
         </p>
-        <div className="flex flex-row justify-start items-center flex-wrap m-2">
+        <div className="flex flex-row justify-center xl:justify-start items-center flex-wrap m-2">
           <Products />
           <Products />
           <Products />

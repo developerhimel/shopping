@@ -18,10 +18,12 @@ class MyDocument extends Document {
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossOrigin="anonymous"
           />
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         </Head>
         <body className="bg-gray-50">
           <Main />
           <NextScript />
+          <script src="./jquery.js"></script>
         </body>
       </Html>
     );

@@ -29,7 +29,7 @@ function Vendors() {
             See all items
           </span>
         </p>
-        <div className="flex flex-row justify-start items-center flex-wrap m-2">
+        <div className="flex flex-row justify-center xl:justify-start items-center flex-wrap m-2">
           <Products image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/P/X/5981_1598025608.jpg" />
           <Products image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/G/r/Graphic-Print-T-Shirt-7927771.jpg" />
           <Products image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/P/N/140595_1564079843.jpg" />

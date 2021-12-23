@@ -12,7 +12,7 @@ function Homepage() {
       <Navbar />
       <div className="py-3" />
       <div className="container mx-auto">
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-col xl:flex-row justify-center items-center md:justify-between">
           <div className="">
             <Carousel
               swipeable={true}
@@ -35,24 +35,26 @@ function Homepage() {
             </Carousel>
           </div>
           <div className="">
-            <div className="flex flex-col items-center justify-center w-72 shadow-md m-2 border rounded-lg p-3 mt-0 mr-0">
-              <h1 className="text-center text-xl font-semibold text-orange-500 mb-4">
-                Welcome to Shopping Platform
-              </h1>
-              <div className="flex flex-row justify-between items-center">
-                <button className="bg-purple-700 shadow-md text-white p-2 mr-1 rounded-full px-3">
-                  Join now
-                </button>
-                <button className="bg-orange-500 shadow-md text-white p-2 rounded-full px-3">
-                  Sign In
-                </button>
+            <div className="flex flex-row mt-3 justify-between xl:flex-col xl:mt-0">
+              <div className="flex flex-col items-center justify-center w-full md:w-72 mt-3 shadow-md m-2 border rounded-lg p-3 md:mt-0 mr-0">
+                <h1 className="text-center text-xl font-semibold text-orange-500 mb-4">
+                  Welcome to Shopping Platform
+                </h1>
+                <div className="flex flex-col sm:flex-row justify-between items-center">
+                  <button className="bg-purple-700 mb-1 sm:mb-0 shadow-md text-white p-2 mr-1 rounded-full px-3">
+                    Join now
+                  </button>
+                  <button className="bg-orange-500 shadow-md text-white p-2 rounded-full px-3">
+                    Sign In
+                  </button>
+                </div>
               </div>
-            </div>
-            <div className="ml-2 rounded-md overflow-hidden shadow-md mt-5">
-              <img
-                src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1639330566/contentservice/xmas%20storeJara.jpg_BkpW7nQqt.jpg"
-                alt="offer"
-              />
+              <div className="ml-2 rounded-md overflow-hidden shadow-md xl:mt-5">
+                <img
+                  src="https://www-konga-com-res.cloudinary.com/image/upload/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/v1639330566/contentservice/xmas%20storeJara.jpg_BkpW7nQqt.jpg"
+                  alt="offer"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -110,8 +112,8 @@ function Homepage() {
         <Amazon />
         <BestSelling />
         <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-center text-center">
+          <div className="container mx-auto flex px-5 py-24 flex-col items-center">
+            <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                 Get our shopping mobile apps
               </h1>
@@ -122,7 +124,7 @@ function Homepage() {
               <p className="text-sm mt-2 text-gray-500 mb-8 w-full">
                 Android & ios apps
               </p>
-              <div className="flex lg:flex-row md:flex-col">
+              <div className="flex flex-col lg:flex-row md:flex-col">
                 <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +141,7 @@ function Homepage() {
                     <span className="title-font font-medium">Google Play</span>
                   </span>
                 </button>
-                <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
+                <button className="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-0 md:mt-4 mt-2 lg:mt-0 hover:bg-gray-200 focus:outline-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
