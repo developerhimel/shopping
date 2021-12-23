@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -13,4 +18,47 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.text-12 {
+  font-size: 12px !important;
+}
+.max-w-89 {
+  max-width: 85%;
+}
+.customul > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #ddd;
+}
+.customul > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.homeCategorySub {
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.2s ease-in-out;
+  width: 300px;
+}
+.homeCategory:hover > .homeCategorySub {
+  transform: scaleY(1);
+}
+
+ul.subCategoryUl {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 287px;
+  width: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.3s ease-in-out;
+}
+.homeCategorySub>li:hover>ul{
+  transform: scaleY(1);
 }

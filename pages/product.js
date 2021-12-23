@@ -1,16 +1,18 @@
 import Head from "next/head";
+import React from "react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import Homepage from "../components/page/Homepage";
+import Productpage from "../components/page/Productpage";
 
-export default function Home() {
+function product() {
   return (
     <div>
       <Head>
         <title>Shopping Platform™</title>
       </Head>
-      <Homepage />
+      <Productpage/>
       <Footer/>
     </div>
   );
 }
+
+export default product;
